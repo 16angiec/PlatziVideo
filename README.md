@@ -1,0 +1,2 @@
+# PlatziVideo
+Proyecto platzi video 
