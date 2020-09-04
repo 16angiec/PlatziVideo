@@ -1,0 +1,20 @@
+.error {
+    background: linear-gradient(#21c08b, #ab88ff);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 200px);    
+    text-align: center;
+}
+
+.error_number p{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 160px;
+}
+
+.error_description p {
+    font-size: 30px;
+    margin: 0;
+}

@@ -13,9 +13,8 @@ const API = 'http://localhost:3000/initalState';
 const Home = () => {
     const initialState = useInitialState(API);
     return (
-        <div className="App">
+        <>
 
-            <Header />
             <Search />
 
             {Object.keys(initialState).map((category) => {
@@ -33,8 +32,7 @@ const Home = () => {
                 }
             })}
 
-            <Footer />
-        </div>
+        </>
     );
     /**return (
         <div className="App">
