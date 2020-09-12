@@ -1,7 +1,11 @@
 import { useState, useEffect } from 'react';
 
 const useInitialState = (API) => {
-    const [videos, setVideos] = useState({ });
+    const [videos, setVideos] = useState({
+        miList: [],
+        trends: [],
+		originals: [],
+     });
 
     useEffect(() => {
         fetch(API)
